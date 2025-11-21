@@ -1,10 +1,22 @@
-# Proyecto Final Data Science: Predicción de Fuga de Clientes (Churn)
+# Predicción de Fuga de Clientes (Churn) - Telco
 
-Este repositorio contiene el trabajo final del curso de Data Science.
-**Objetivo:** Predecir qué clientes de la empresa "Telco" tienen mayor probabilidad de abandonar el servicio.
+### 📋 Descripción del Proyecto
+Este proyecto de Data Science tiene como objetivo predecir qué clientes de una empresa de telecomunicaciones están en riesgo de abandonar el servicio. Se utilizó un dataset de **Telco** con más de 7,000 registros.
 
-## Contenido
-* **Notebook:** `ProyectoParteIII+TuApellido.ipynb` 
-* **Dataset:** `WA_Fn-UseC_-Telco-Customer-Churn.csv`
-## Resultados
-El modelo Random Forest logró un **Accuracy del ~79%** y un **AUC de 0.82**, superando la hipótesis nula. Se identificó que los contratos mensuales y la fibra óptica son los principales factores de riesgo.
+### 🚀 Resultados Clave
+El modelo final (**Random Forest**) logró superar las expectativas iniciales:
+* **Accuracy:** ~79% (Capacidad general de acierto).
+* **AUC:** 0.82 (Excelente capacidad de distinción entre clases).
+* **Hallazgo:** Los principales factores de fuga son los **contratos mensuales**, la **fibra óptica** y los **cargos elevados**.
+
+### 🛠️ Tecnologías Utilizadas
+* **Lenguaje:** Python
+* **Librerías:** Pandas, Matplotlib, Seaborn, Scikit-Learn.
+* **Modelo:** Random Forest Classifier (con ajuste de hiperparámetros y balanceo de clases).
+
+### 📂 Estructura del Repositorio
+* `ProyectoParteIII+Aagaard.ipynb`: Notebook completo con el análisis y modelado.
+* `WA_Fn-UseC_-Telco-Customer-Churn.csv`: Dataset original utilizado.
+
+---
+*Trabajo realizado por Aagaard Pablo Tomás para el curso de Data Science de Coderhouse.*
